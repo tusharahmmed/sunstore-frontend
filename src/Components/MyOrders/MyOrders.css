@@ -1,0 +1,55 @@
+
+.order-section table tr td img{
+    width: 60px;
+}
+.order-section table tr td,th{
+    padding: 10px 60px;
+    text-align: center;
+}
+
+@media only screen and (max-width:668px) {
+   .order-section{
+    font-size: 13px;
+    padding: 20px 5px 60px 5px;
+   }
+    .order-section table tr td img{
+        width: 20px;
+    }
+    .order-section table tr td,th{
+        padding: 10px 5px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .order-list{
+        display: flex;
+        justify-content: center;
+    }
+   .order-section{
+    font-size: 18px;
+    padding: 40px 5px 60px 5px;
+   }
+    .order-section table tr td img{
+        width: 40px;
+    }
+    .order-section table tr td,th{
+        padding: 15px 10px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .order-list{
+        display: flex;
+        justify-content: center;
+    }
+   .order-section{
+    padding: 40px 0px 150px 0px;
+   }
+    .order-section table tr td img{
+        width: 40px;
+    }
+    .order-section table tr td,th{
+        padding: 15px 60px;
+        text-align: center;
+    }
+}

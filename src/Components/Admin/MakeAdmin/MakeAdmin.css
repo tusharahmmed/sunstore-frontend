@@ -1,0 +1,11 @@
+.make-admin{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 3px rgba(128, 128, 128, 0.24);
+}
+.admin-btn{
+    /* float: right; */
+    margin: auto;
+    padding: 10px 15px;
+}

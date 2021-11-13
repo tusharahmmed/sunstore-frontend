@@ -1,0 +1,81 @@
+.hero-text{
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+.hero-text h2{
+    font-size: 4em;
+}
+.hero-text p{
+    font-size: 1.8em;
+}
+.hero-btn-light{
+background: transparent;
+outline: none;
+color: white;
+padding: 10px 20px;
+font-size: 24px;
+border: 1px solid white;
+transition: .3s;
+}
+.hero-btn-dark{
+background: transparent;
+outline: none;
+color: white;
+padding: 10px 20px;
+font-size: 24px;
+border: 1px solid black;
+transition: .3s;
+}
+.hero-btn-light:hover{
+    background: white;
+    color: black;
+}
+.hero-btn-dark:hover{
+    background: black;
+    color: white;
+}
+
+@media only screen and (max-width:688px){
+    .hero-text h2{
+        font-size: 1.5em;
+    }
+    .hero-text p{
+        font-size: 1em;
+        display: none;
+    }
+    .hero-btn-light{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .hero-btn-dark{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .hero-text{
+        position: absolute;
+        left: 10%;
+        bottom: 10%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .hero-text h2{
+        font-size: 2em;
+    }
+    .hero-text p{
+        font-size: 1.5em;
+    }
+    .hero-btn-light{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .hero-btn-dark{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .hero-text{
+        position: absolute;
+        left: 10%;
+        bottom: 15%;
+    }
+}

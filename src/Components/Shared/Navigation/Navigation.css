@@ -1,0 +1,21 @@
+.logo-title{
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.navbar-nav .nav-link{
+    margin-right: 30px;
+    /* padding-left: 50px; */
+}
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.cart-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logout-btn{
+    cursor: pointer;
+}

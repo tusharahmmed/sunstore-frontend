@@ -1,0 +1,49 @@
+.place-order{
+    width: 70%;
+    margin: auto;
+    padding: 100px ;
+}
+.order-container{
+    display: flex;
+    justify-content: space-around;
+}
+.order-thumb{
+    width: 70%;
+    margin: auto;
+}
+.order-thumb img{
+    width: 100%;
+}
+.product-info h5{
+   padding: 10px 0px;
+}
+.order-form{
+    width: 40%;
+}
+
+
+
+@media only screen and (max-width:688px) {
+    .place-order{
+        width: 90%;
+        padding: 5px;
+    }
+    .order-container{
+        display: block;
+    }
+    .order-form{
+        width: 80%;
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:1200px) {
+    .place-order{
+        width: 80%;
+        padding: 5px;
+    }
+    .order-form{
+        width: 60%;
+        
+    }
+    
+}

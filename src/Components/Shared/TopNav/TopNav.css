@@ -1,0 +1,10 @@
+.top-nav{
+    font-size: 13px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.151);
+    color: rgba(128, 128, 128, 0.726);
+}
+@media only screen and (max-width:688px){
+    .sm-center{
+        justify-content: center !important;
+    }
+}

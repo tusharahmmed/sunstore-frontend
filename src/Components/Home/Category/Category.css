@@ -1,0 +1,37 @@
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: stretch;
+    gap: 25px
+}
+.cat-item img{
+    width: 100%;
+}
+.cat-item h3{
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+.cat-item p{
+    font-size: 20px;
+    line-height: 1.1;
+    color: #1a1a1a;
+    margin: 5px 0px;
+}
+
+@media only screen and (max-width:688px){
+    .category-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: stretch;
+        gap: 25px
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992) {
+    .category-container{
+        gap: 10px
+    }
+}
